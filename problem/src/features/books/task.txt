@@ -1,0 +1,8 @@
+console.log(book)
+                const reviewToAdded = new reviewModel({
+                    text:text,
+                    rating:rating,
+                    book:bookId
+                })
+                const result = await reviewToAdded.save()
+                return result;
